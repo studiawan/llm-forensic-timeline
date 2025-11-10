@@ -1,0 +1,67 @@
+{
+  "task": "Event summarization",
+  "type": "No additional knowledge. Single event.",
+  "role": "I am a forensic investigator. I need to summarize high level events from the \"message\" column of a csv (comma-separated value) file from the log2timeline plaso. How can I find this out?",
+  "instructions": "Answer using JSON format as shown below and export to a JSON file for all of the results.",
+  "goals": {
+    "0-launch-edge.csv": "Summarize events related to Microsoft Edge executions.",
+    "1-open-bing.csv": "Summarize events related to the user opening bing.com.",
+    "2-search-firefox.csv": "Summarize events related to Bing search about Mozilla Firefox.",
+    "3-launch-cmd.csv": "Summarize events related to a program opened or launched.",
+    "4-open-mozilla-org.csv": "Summarize events related to the user opening mozilla.org.",
+    "5-firefox-installer-download.csv": "Summarize events related to Mozilla Firefox installer download.",
+    "6-launch-explorer.csv": "Summarize events related to the launch of the File Explorer.",
+    "7-launch-firefox-installer.csv": "Summarize events related to the launch of the Mozilla Firefox installer.",
+    "8-firefox-install.csv": "Summarize events related to Mozilla Firefox installation.",
+    "9-launch-firefox.csv": "Summarize events related to the launch of Mozilla Firefox.",
+    "10-firefox-recent-access.csv": "Summarize events related to recent file access of Mozilla Firefox.",
+    "11-open-google.csv": "Summarize events related to the user opening google.com.",
+    "12-search-sql-injection.csv": "Summarize events related to a Google search about sql injection attack.",
+    "13-open-w3schools.csv": "Summarize events related to to the user opening w3schools.com.",
+    "14-shutdown.csv": "Summarize events related to Windows shutdown event."
+  },
+  "output_format": {
+    "index-here": {
+      "id": "",
+      "date_time_min": "",
+      "date_time_max": "",
+      "evidence_source": "",
+      "type": "",
+      "description": "",
+      "category": "",
+      "plugin": "",
+      "files": "",
+      "keys": {
+        "Windows Event ID": "",
+        "Windows Event ID (hex)": "",
+        "Executable name": ""
+      },
+      "supporting": {
+        "before": [],
+        "after": []
+      },
+      "trigger": {
+        "id": "",
+        "description": "",
+        "test_event": {
+          "type": "",
+          "evidence": ""
+        },
+        "provenance": {
+          "line_number": "",
+          "raw_entry": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ]
+        },
+        "keys": {},
+        "references": ""
+      }
+    }
+  }
+}
