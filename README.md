@@ -15,9 +15,11 @@ A work in progress repository for DFRWS APAC 2025 paper: [A standardized methodo
 
    `pip install openai`
 
-4. Download `scenario-1.zip` and unzip it
+4. Open dataset repository on [Zenodo](https://zenodo.org/records/15493424)
 
-5. Copy all files from `scenario-1/timeline/events` directory to `dataset/event-summarization` directory
+5. Download `scenario-1.zip` and unzip it
+
+6. Copy all files from `scenario-1/timeline/events` directory to `dataset/event-summarization` directory
 
 # How to run
 
